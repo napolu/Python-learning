@@ -89,14 +89,14 @@
 # - A (3,6); B (2,1) -> 5,09
 # - A (7,-5); B (1,-1) -> 7,21
 
-import math
+# import math
 
-x1 = float(input('Enter X coordinate of dot one: '))
-y1 = float(input('Enter Y coordinate of dot one: '))
+# x1 = float(input('Enter X coordinate of dot one: '))
+# y1 = float(input('Enter Y coordinate of dot one: '))
 
-x2 = float(input('Enter X coordinate of dot two: '))
-y2 = float(input('Enter Y coordinate of dot two: '))
+# x2 = float(input('Enter X coordinate of dot two: '))
+# y2 = float(input('Enter Y coordinate of dot two: '))
 
-distance = math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1))
-print(round(distance, 3))
+# distance = math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1))
+# print(round(distance, 3))
 
