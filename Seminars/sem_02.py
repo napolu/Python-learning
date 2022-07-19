@@ -72,7 +72,7 @@ if len(string1) < len(string2):
     string1, string2 = string2, string1
 count = 0
 
-for i in range(0, len(string1)-len(string2)+1): # если в "ко ко ко" считать "ко", то получается 2 :С
+for i in range(0, len(string1)-len(string2)+1): 
     if string2.lower() == string1[i:i+len(string2)].lower():
         count += 1
     # print(string1[i:i+len(string2)])
